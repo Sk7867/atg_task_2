@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.from('.sec1_img1, .sec1_img2, .heading, .subheading', {
+gsap.from('.sec1_img1, .sec1_img2', {
   scrollTrigger: {
     trigger: '#section_1',
     start: 'center bottom',
@@ -12,22 +12,6 @@ gsap.from('.sec1_img1, .sec1_img2, .heading, .subheading', {
   duration: 1,
   stagger: 0.3,
   opacity: 0,
-  ease: 'power1.in',
-});
-
-gsap.from('.case_study', {
-  scrollTrigger: {
-    trigger: '#section_1',
-    start: 'center bottom',
-    end: 'top bottom',
-    markers: true,
-    toggleActions: 'restart none none reverse',
-  },
-  duration: 1,
-  stagger: 0.3,
-  opacity: 0,
-  delay: 0.7,
-  transfromOrigin: 'center',
   ease: 'power1.in',
 });
 
