@@ -13,7 +13,7 @@ gsap.from('.svg_anim1, .anim1, .btn_anim1', {
   duration: 0.7,
   stagger: 0.2,
   opacity: 0,
-  ease: 'power1.in',
+  ease: 'power3.in',
 });
 
 gsap.from('.svg_anim2, .anim2, .btn_anim2', {
@@ -29,7 +29,7 @@ gsap.from('.svg_anim2, .anim2, .btn_anim2', {
   duration: 0.7,
   stagger: 0.2,
   opacity: 0,
-  ease: 'power1.in',
+  ease: 'power3.in',
 });
 
 gsap.from('.svg_anim3, .anim3, .btn_anim3', {
@@ -45,7 +45,7 @@ gsap.from('.svg_anim3, .anim3, .btn_anim3', {
   duration: 0.7,
   stagger: 0.2,
   opacity: 0,
-  ease: 'power1.in',
+  ease: 'power3.in',
 });
 
 gsap.from('.svg_anim4, .anim4, .btn_anim4', {
@@ -61,7 +61,7 @@ gsap.from('.svg_anim4, .anim4, .btn_anim4', {
   duration: 0.7,
   stagger: 0.2,
   opacity: 0,
-  ease: 'power1.in',
+  ease: 'power3.in',
 });
 
 gsap.from('.svg_anim5, .anim5, .btn_anim5', {
@@ -77,7 +77,7 @@ gsap.from('.svg_anim5, .anim5, .btn_anim5', {
   duration: 0.7,
   stagger: 0.2,
   opacity: 0,
-  ease: 'power1.in',
+  ease: 'power3.in',
 });
 
 gsap.from('.svg_anim6, .anim6, .btn_anim6', {
@@ -93,7 +93,7 @@ gsap.from('.svg_anim6, .anim6, .btn_anim6', {
   duration: 0.7,
   stagger: 0.2,
   opacity: 0,
-  ease: 'power1.in',
+  ease: 'power3.in',
 });
 
 gsap.from('.svg_anim7, .anim7, .btn_anim7', {
@@ -109,5 +109,5 @@ gsap.from('.svg_anim7, .anim7, .btn_anim7', {
   duration: 0.7,
   stagger: 0.2,
   opacity: 0,
-  ease: 'power1.in',
+  ease: 'power3.in',
 });
