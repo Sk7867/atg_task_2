@@ -1,0 +1,30 @@
+.wrapper {
+  .owl-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    margin-bottom: 10px;
+
+    @include mq(tablet) {
+      display: none;
+    }
+  }
+
+  @include mq(tablet) {
+    .owl-item.cloned {
+      display: none !important;
+    }
+    .owl-stage {
+      transform: none !important;
+      transition: none !important;
+      width: auto !important;
+      display: flex;
+      flex-flow: column;
+    }
+    .owl-item {
+      width: auto !important;
+    }
+  }
+}
