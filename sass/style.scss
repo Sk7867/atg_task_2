@@ -57,16 +57,27 @@ section {
     }
 
     .circle_svg {
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-      position: absolute;
-      top: 20px;
-      left: 440px;
-      display: flex;
-      flex-flow: column;
-      justify-content: center;
-      z-index: 5;
+      display: none;
+
+      @include mq(tablet) {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        position: absolute;
+        top: 20px;
+        left: 230px;
+        z-index: 5;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+      }
+
+      @include mq(desk-small) {
+        left: 350px;
+      }
+      @include mq(desktop) {
+        left: 440px;
+      }
 
       .svg {
         position: absolute;
