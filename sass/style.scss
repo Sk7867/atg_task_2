@@ -68,6 +68,43 @@ section {
       justify-content: center;
       z-index: 5;
 
+      .svg {
+        position: absolute;
+
+        .Dots {
+          transform: translate(-120px, 45px);
+          transition: all 1s ease-in;
+        }
+        .Dots0 {
+          transform: translate(-120px, 45px);
+          transition: all 1s ease-in;
+        }
+        .Dots1 {
+          transform: translate(0px, 0px);
+          transition: all 1s ease-in;
+        }
+        .Dots2 {
+          transform: translate(120px, 45px);
+          transition: all 1s ease-in;
+        }
+        .Dots3 {
+          transform: translate(173px, 170px);
+          transition: all 1s ease-in;
+        }
+        .Dots4 {
+          transform: translate(120px, 295px);
+          transition: all 1s ease-in;
+        }
+        .Dots5 {
+          transform: translate(0px, 345px);
+          transition: all 1s ease-in;
+        }
+        .Dots6 {
+          transform: translate(-120px, 295px);
+          transition: all 1s ease-in;
+        }
+      }
+
       .svg_text {
         width: 100%;
         display: flex;
@@ -322,6 +359,12 @@ section {
     .circle_svg {
       background-color: hsl(300, 71%, 29%);
 
+      .svg {
+        .Dots.shift_1 {
+          transform: translate(0px, 0px);
+        }
+      }
+
       .svg_text {
         .texts_head {
           font-size: 28px;
@@ -391,6 +434,16 @@ section {
 
     .circle_svg {
       background-color: hsl(240, 73%, 36%);
+
+      .svg {
+        .Dots {
+          transform: translate(0px, 0px);
+
+          &.shift_2 {
+            transform: translate(120px, 45px);
+          }
+        }
+      }
 
       .svg_text {
         .texts_head {
@@ -515,6 +568,16 @@ section {
     .circle_svg {
       background-color: hsl(199, 63%, 31%);
 
+      .svg {
+        .Dots {
+          transform: translate(120px, 45px);
+
+          &.shift_3 {
+            transform: translate(173px, 170px);
+          }
+        }
+      }
+
       .svg_text {
         .texts_head {
           font-size: 28px;
@@ -617,6 +680,16 @@ section {
     .circle_svg {
       background-color: rgb(26, 26, 167);
 
+      .svg {
+        .Dots {
+          transform: translate(173px, 170px);
+
+          &.shift_4 {
+            transform: translate(120px, 295px);
+          }
+        }
+      }
+
       .svg_text {
         .texts_head {
           font-size: 28px;
@@ -658,6 +731,16 @@ section {
 
     .circle_svg {
       background-color: hsl(240, 63%, 54%);
+
+      .svg {
+        .Dots {
+          transform: translate(120px, 295px);
+
+          &.shift_5 {
+            transform: translate(0px, 345px);
+          }
+        }
+      }
 
       .svg_text {
         .texts_head {
@@ -720,6 +803,16 @@ section {
 
     .circle_svg {
       background-color: rgb(12, 134, 29);
+
+      .svg {
+        .Dots {
+          transform: translate(0px, 345px);
+
+          &.shift_6 {
+            transform: translate(-120px, 295px);
+          }
+        }
+      }
 
       .svg_text {
         .texts_head {
