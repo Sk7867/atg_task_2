@@ -5,7 +5,7 @@ const firstElem = document.querySelector('.panel');
 function goToSection(i, anim) {
   gsap.to(window, {
     scrollTo: { y: i * innerHeight + firstElem.offsetTop, autoKill: false },
-    duration: 0.5,
+    duration: 1,
   });
 
   if (anim) {
@@ -21,7 +21,7 @@ gsap.utils.toArray('.panel').forEach((panel, i) => {
 
   ScrollTrigger.create({
     trigger: panel,
-    start: 'bottom bottom',
+    start: '80% bottom',
     onEnterBack: () => goToSection(i),
   });
 });
